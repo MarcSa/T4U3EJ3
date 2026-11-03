@@ -1,6 +1,5 @@
 <script setup lang="ts">
-// import PrimerFormulario from './components/PrimerFormulario.vue';
-import RegistroFormulario from './components/RegistroFormulario.vue';
+import TicketForm from '@/components/TicketForm.vue';
 </script>
 
 <template>
@@ -8,9 +7,8 @@ import RegistroFormulario from './components/RegistroFormulario.vue';
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="mb-4">Componente principal de la App</h1>
-                    <!-- <PrimerFormulario /> -->
-                    <RegistroFormulario />
+                    <h1 class="mb-4">Formulario de incidencias</h1>
+                    <TicketForm />
                 </div>
             </div>
         </div>
